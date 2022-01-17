@@ -14,6 +14,14 @@ body{
     text-align: center;
 }
 
+.row div a img{
+    opacity: 0.5;
+    
+}
+.row div a img:hover{
+    opacity: 1.0;
+}
+
 header nav{
     background-color: rgb(46, 37, 58);
     font-size: 20px;
@@ -31,17 +39,18 @@ header nav li:active{
 }
 
 /* section de index.html */
-#section__index{
+.row .section__index a{
     text-align: center;
-    color: rgb(46, 37, 58);
-    background-color: rgb(100, 24, 136);
+    color: rgb(125, 16, 175);
+    background-color: rgb(35, 26, 46);
 }
 
-#section__index:hover{
-    background-color: cyan;
+.row .section__index a:hover{
+    background-color:  rgb(100, 24, 136);
 }
-#section__index:active{
-    background-color: rgb(100, 24, 136);
+.row .section__index a:active{
+    background-color: cyan;
+
 }
 
 
@@ -70,6 +79,53 @@ td {
     text-align: center;
 }
 
+/* section de nosotros.html*/
+
+.QuienesSomos{
+    background-color: rgb(35, 26, 46);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-bottom: 64px; */
+    color: rgb(125, 16, 175);
+    font-size: 20px;
+}
+
+.TextDueños{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(125, 16, 175);
+    font-size: 20px;
+    background-color: rgb(35, 26, 46);
+}
+
+
+/* section de contacto.html */
+.form--contacto{
+    font-size: 1em;
+    background-color: #c8c8c8;
+    background-color: rgb(35, 26, 46);
+    color: rgb(125, 16, 175);
+    font-style: italic;
+}
+.form--contacto label{
+	font-weight:bold;
+    font-size: 25px;
+}
+
+.form--contacto input{
+    font-size: 0.75em;
+}
+
+.form--contacto select{
+    font-size: 0.5em;
+}
+
+.text__horarios{
+    color: rgb(125, 16, 175);
+    background-color: rgb(35, 26, 46);
+    text-align: center;
+    font-size: 25px;  
+    margin-bottom: 0%;  
+}
+
 /* footer de paginas*/
 
 footer{
@@ -80,15 +136,20 @@ footer{
     font-style: italic;
     text-align: center;
 }
+footer img{
+    opacity: 0.5;
+}
+footer img:hover{
+    opacity: 1.0;
+}
 
-
-#footer div .nav a{
+footer div .nav a{
     color: rgb(255, 255, 255);
 }
 
-#footer div .nav li:hover{
+footer div .nav li:hover{
     background-color: rgb(211, 211, 211);
 }
-#footer div .nav li:active{
+footer div .nav li:active{
     background-color:  rgb(100, 24, 136);
 }

@@ -18,7 +18,7 @@
                     <a href="../index.html"><img src="../multimedia/Logo.jpg" alt="reparacion de icono de computadora" allowfullscreen="" loading="lazy" class="card-img-top"></a>                
                 </div>
                 <div class="col-md-10 col-9 col-sm-10 col-lg-10 col-xl-11">
-                    <h1>CONTACTANOS!</h1>
+                    <h1>CONTACTOS!</h1>
                 </div>
             </div>
         </div>
@@ -27,8 +27,8 @@
                     <li class="nav-item col-xl-2 col-md-2 col-6 col-lg-2 col-sm-4"> <a class="nav-link" href="../index.html">INICIO</a></li>
                     <li class="nav-item col-xl-3 col-md-3 col-6 col-lg-3 col-sm-4" > <a class="nav-link " href="productos.html">PRODUCTOS</a></li>
                     <li class="nav-item col-xl-2 col-md-2 col-6 col-lg-2 col-sm-4"> <a class="nav-link" href="promos.html">PROMOS</a></li>
-                    <li class="nav-item col-xl-3 col-md-3 col-6 col-lg-3 col-sm-6"> <a class="nav-link disabled" href="#">NOSOTROS</a></li>
-                    <li class="nav-item col-xl-2 col-md-2 col-12 col-lg-2 col-sm-6"> <a class="nav-link" href="contacto.html">CONTACTO</a></li>
+                    <li class="nav-item col-xl-3 col-md-3 col-6 col-lg-3 col-sm-6"> <a class="nav-link " href="nosotros.html">NOSOTROS</a></li>
+                    <li class="nav-item col-xl-2 col-md-2 col-12 col-lg-2 col-sm-6"> <a class="nav-link disabled" href="#">CONTACTO</a></li>
                 </ul>
         </nav>
     </header>
@@ -39,53 +39,55 @@
     
     <!-- formulario de contacto-->
     <section>
-        <div class="contenedor--sectioncontacto">
-            <article>
-                <div class="caja__contacto">
-                    <form class="form--contacto">
-                        <label for="name">Nombre:</label>
-                        <input type="text" placeholder="Escribir Nombre" id="name"  name="name" required><br>
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" placeholder="Escribir Apellido"name="apellido" id="apellido"required><br>
-                        <label for="email">Decime tu email:</label>
-                        <input type="email" placeholder="aaa@gmail.com" name="email" id="email" required><br>
-                        <label for="telefono">Telefono:</label> 
-                        <input type="text" required placeholder="Escribir su telefono o celular" id="telefono" required> <br>
-                        <label for="Descripcion"> Descripcion de Entrega:</label><br>
-                        <textarea placeholder="Descripcion" id="Descripcion"required></textarea><br>
+        <div class="container-fluid">
+            <div class="row">
+                <article class="col-xl-6 offset-xl-0 col-sm-6 offset-sm-3 col-md-6 offset-md-3 col-lg-6 offset-lg-0">
+                    <div class="form-group">
+                        <form class="form--contacto">
+                            <label for="name">Nombre:</label>
+                            <input type="text" placeholder="Escribir Nombre" id="name"  name="name" required><br>
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" placeholder="Escribir Apellido"name="apellido" id="apellido"required><br>
+                            <label for="email">Decime tu email:</label>
+                            <input type="email" placeholder="aaa@gmail.com" name="email" id="email" required><br>
+                            <label for="telefono">Telefono:</label> 
+                            <input type="text" required placeholder="Escribir su telefono o celular" id="telefono" required> <br>
+                            <label for="Descripcion"> Descripcion de Entrega:</label><br>
+                            <textarea placeholder="Descripcion" id="Descripcion"required></textarea><br>
             
-                        <div>
-                            <label for=""> Primera vez con nosotros</label>
-                            <label for ="si">Si</label>
-                            <input type="radio" name="lado" value="si" id="si">
-                            <label for ="no">No</label>
-                            <input type="radio" name="lado" value="no" id="no">
-                        </div>
-                        <label for="letra">Forma de pago?</label>
-                        <select name="letra" id="letra"> 
-                            <option value="efectivo">Efectivo</option> 
-                            <option value="tarjeta">Debito o Credito</option>
-                            <option value="mercado">Mercado Pago</option>
-                        </select>
-                        <div>
-                            <label for="condiciones">Acepto todos los termino y condiciones</label>
-                            <input type="checkbox" name="acepta" value="1" id="condiciones" required>
-                        </div>
-                        <input type="submit" value="CONFIRMAR COMPRA">
-                        <input type="reset" value="RESETEAR ">
-                    </form>
-                </div>
-            </article>
-            <!-- cierre de form contacto-->
-            <article>
-                <div class="texthorarios__caja">
-                    <p class="text__horarios"> Cualquier duda, nos encontraras entre las 9 a 19 hs, solo de Lunes a Viernes.</p>
-                </div>
-                <div class="imgmaps__caja">
-                    <iframe class="imgmaps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.020598199738!2d-58.37468197079351!3d-34.60207799877874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc6871eb61%3A0xce94e66fa2acafad!2sCompugarden!5e0!3m2!1ses!2sar!4v1637624136942!5m2!1ses!2sar" width="190" height="110"  loading="lazy"></iframe>
-                </div>
+                            <div>
+                                <label for=""> Primera vez con nosotros</label>
+                                <label for ="si">Si</label>
+                                <input type="radio" name="lado" value="si" id="si">
+                                <label for ="no">No</label>
+                                <input type="radio" name="lado" value="no" id="no">
+                            </div>
+                            <label for="letra">Forma de pago?</label>
+                            <select name="letra" id="letra"> 
+                                <option value="efectivo">Efectivo</option> 
+                                <option value="tarjeta">Debito o Credito</option>
+                                <option value="mercado">Mercado Pago</option>
+                            </select>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="condiciones" required>
+                                <label class="form-check-label" for="condiciones">Acepto todos los termino y condiciones</label>
+                            </div>
+                            <input type="submit" value="CONFIRMAR COMPRA">
+                            <input type="reset" value="RESETEAR ">
+                        </form>
+                    </div>
+                </article>
+                <!-- cierre de form contacto-->
+                <article class="col-xl-6 col-lg-6 col-sm-12 col-md-12">
+                    <div class="texthorarios__caja">
+                        <p class="text__horarios"> Cualquier duda, nos encontraras entre las 9 a 19 hs, solo de Lunes a Viernes.</p>
+                    </div>
+                    <div class="imgmaps__caja">
+                        <iframe class="imgmaps"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.020598199738!2d-58.37468197079351!3d-34.60207799877874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc6871eb61%3A0xce94e66fa2acafad!2sCompugarden!5e0!3m2!1ses!2sar!4v1637624136942!5m2!1ses!2sar" width="100%" height="625px"  loading="lazy"></iframe>
+                    </div>
 
-            </article>
+                </article>
+            </div>
         </div>
     </section>
     <!-- cierre de informacion de mi sitio-->
