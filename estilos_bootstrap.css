@@ -37,7 +37,8 @@ header nav li:hover{
 header nav li:active{
     background-color:  rgb(100, 24, 136);
 }
-
+/* fin de header paginas */
+/* ------------------------*/
 /* section de index.html */
 .row .section__index a{
     text-align: center;
@@ -52,8 +53,8 @@ header nav li:active{
     background-color: cyan;
 
 }
-
-
+/* fin de section index.html*/
+/* ---------------------------*/
 /* section de productos.html */
 
 table,td, th {
@@ -71,6 +72,8 @@ th {
 td {
     color:#c8c8c8 ;
 }
+/* fin de section productos.html*/
+/* -------------------------------*/
 /* section de promos.html*/
 .row div h3{
     color:  rgb(46, 37, 58);
@@ -78,7 +81,8 @@ td {
     font-size: 20px;
     text-align: center;
 }
-
+/* fin de section promos.html*/
+/* -------------------------------*/
 /* section de nosotros.html*/
 
 .QuienesSomos{
@@ -94,8 +98,8 @@ td {
     font-size: 20px;
     background-color: rgb(35, 26, 46);
 }
-
-
+/* fin de section nosotros.html*/
+/* -------------------------------*/
 /* section de contacto.html */
 .form--contacto{
     font-size: 1em;
@@ -124,7 +128,8 @@ td {
     font-size: 25px;  
     margin-bottom: 0%;  
 }
-
+/* fin de contacto.html*/
+/* -------------------------------*/
 /* footer de paginas*/
 
 footer{
