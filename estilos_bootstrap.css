@@ -28,8 +28,22 @@ header nav li:hover{
 }
 header nav li:active{
     background-color:  rgb(100, 24, 136);
-    
 }
+
+/* section de index.html */
+#section__index{
+    text-align: center;
+    color: rgb(46, 37, 58);
+    background-color: rgb(100, 24, 136);
+}
+
+#section__index:hover{
+    background-color: cyan;
+}
+#section__index:active{
+    background-color: rgb(100, 24, 136);
+}
+
 
 /* section de productos.html */
 
@@ -68,13 +82,13 @@ footer{
 }
 
 
-footer div ul a{
+#footer div .nav a{
     color: rgb(255, 255, 255);
 }
 
-footer div ul li:hover{
+#footer div .nav li:hover{
     background-color: rgb(211, 211, 211);
 }
-footer div ul li:active{
+#footer div .nav li:active{
     background-color:  rgb(100, 24, 136);
 }
